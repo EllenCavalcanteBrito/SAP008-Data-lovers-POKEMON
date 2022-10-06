@@ -1,5 +1,18 @@
-# Projeto Data Lovers - PokeLovers
+# PokéLovers
 
+## Índice
+
+* [1. Prefácio](#1-prefácio)
+* [2. História dos usuários](#2-história-dos-usuários)
+* [3. Protótipo](#3-protótipo)
+* [4. Teste de usabilidade](#4-teste-de-usabilidade)
+* [5. Ferramentas utilizadas](#5-ferramentas-utilizadas)
+* [6. Desenvolvedoras](#6-desenvolvedoras)
+
+
+***
+
+## 1. Prefácio
 Este projeto foi desenvolvido durante o curso da Laborátoria, pelas alunas: Ellen Cavalcante e Vanessa Bueck.
 
 Pokémon GO é um game grátis de realidade aumentada para Android e iPhone (iOS), que permite ao jogador viver uma aventura real, usando o mapa do mundo onde vivemos, para caçar e capturar Pokémon ao longo do caminho.
@@ -15,28 +28,10 @@ Para o desenvolvimento do projeto, realizamos pesquisas com os usuários do jogo
 
 Para acessar o site [clique aqui](https://ellencavalcantebrito.github.io/SAP008-Data-lovers-POKEMON/)
 
-E para melhorar a navegação no readme, abaixo segue o menu das sessões a seguir:
 
-## Ferramentas utilizadas
+## 2. História dos usuários
 
-## História dos usuários
-
-## Protótipos
-
-## Testes de usabilidade
-
-# Ferramentas utilizadas
-
-Inicialmente fizemos uma reunião de brainstorm, para que pudéssemos entender quais as ideias que tínhamos e quais seriam viáveis seguir, com o filtro de todas ideias e quando identificamos que seguiríamos com um site com dados do Pokémon, iniciamos as demais atividades por meio das ferramentas abaixo:
-
-- Notion: Usamos o Notion para incluir todas as atividades/ações que tínhamos que realizar e assim separar melhor qual fluxo de trabalho.
-- Figma: Fizemos no Figma o protótipo de baixa fidelidade, onde pensamos na ideia inicial do nosso site, mas depois de realizar pesquisas com os usuários o protótipo inicial passou por várias mudanças para atender melhor o perfil dos users.
-- MetroRetro: Utilizamos esta ferramenta para fazer toda retrospectiva dos passos alcançados na idealização do projeto e também os pontos de melhorias, tanto da aplicação, quanto do trabalho em dupla.
-- Visual Studio Code: Usamos este IDE para conseguir implementar a aplicação, usamos o HTML, CSS, JavaScript.
-
-# História dos usuários
-
-## Definição do produto
+- Definição do produto
 
 Após uma pesquisa com os usuários do jogo Pokémon GO, vimos ser necessário a criação de um site onde os usuários do jogo possam obter informações para auxiliar eles nos desempenhos das batalhas.
 
@@ -48,9 +43,9 @@ No site também tem um menu a direita, onde o usuário poderá saber as novidade
 - O que os usuários precisam? De uma aplicação que não seja necessário login, assim tendo fácil acesso aos dados, e também onde os usuários possam fazer filtragens por tipo (ex: ice,normal,steel...); raridade (ex: normal, legendário...) e por nome.
 - Por quê? Para que os usuários possam ganhar suas batalhas no jogo.
 
-# Protótipos
+## 3. Protótipo
 
-## PROTÓTIPO BAIXA FIDELIDADE:
+- PROTÓTIPO BAIXA FIDELIDADE:
 
 Inicialmente o primeiro desenho da aplicação foi pensado com um campo de pesquisa, onde o usuário poderia buscar os pokémns por nome, um filtro por tipo e o botão pesquisar, então todo tipo de pesquisa ou filtragem era necessário o ususário apertar o botão "Buscar Pokemons" para obter o resultado.
 
@@ -60,18 +55,33 @@ Além disso, possuia botões na tela inicial, com link de informações, novidad
 
 Mas, conforme a pesquisa com os usuários, entendemos que os mesmos buscavam por uma aplicação de fácil interação e resultado, onde além de não ter necessidade de fazer login, as filtragens ou buscas tivessem uma resposta melhor, desta forma, entendemos a necessidade de mudar a busca pelo evento "change" e "key press", assim quando o user alterasse as informações nos filtros a resposta seria automática na tela. Com isso, obtivemos a versão final do protótipo.
 
-## PROTÓTIPO ALTA FIDELIDADE - web
+- PROTÓTIPO ALTA FIDELIDADE - web
 
 <img src="https://github.com/vanessabuecker/SAP008-data-lovers/blob/main/src/img/prototiposWeb.jpg">
 
-## PROTÓTIPO ALTA FIDELIDADE - mobile
+- PROTÓTIPO ALTA FIDELIDADE - mobile
 
 <img src="https://github.com/vanessabuecker/SAP008-data-lovers/blob/main/src/img/prototiposMobile.jpg">
 
-# Testes de usabilidade
+## 4. Testes de usabilidade
 
 - Foi retirado o botão buscar Pokémons, pois estava sem usabilidade após colocarmos a mudança dos eventos como "change" ou "keypress".
 
 - Linguagens diferentes no site foram identificadas pelos usuários, então atualizamos para que contenha apenas uma linguagem.
 
 - Atualizamos as Cards para que quando o usuário passe com o mouse em cima de um card, ele fique com a cor "amarela", assim facilitando a visualiação do card selecionado.
+
+## 5. Ferramentas utilizadas
+
+Inicialmente fizemos uma reunião de brainstorm, para que pudéssemos entender quais as ideias que tínhamos e quais seriam viáveis seguir, com o filtro de todas ideias e quando identificamos que seguiríamos com um site com dados do Pokémon, iniciamos as demais atividades por meio das ferramentas abaixo:
+
+- Notion: Usamos o Notion para incluir todas as atividades/ações que tínhamos que realizar e assim separar melhor qual fluxo de trabalho.
+- Figma: Fizemos no Figma o protótipo de baixa fidelidade, onde pensamos na ideia inicial do nosso site, mas depois de realizar pesquisas com os usuários o protótipo inicial passou por várias mudanças para atender melhor o perfil dos users.
+- MetroRetro: Utilizamos esta ferramenta para fazer toda retrospectiva dos passos alcançados na idealização do projeto e também os pontos de melhorias, tanto da aplicação, quanto do trabalho em dupla.
+- Visual Studio Code: Usamos este IDE para conseguir implementar a aplicação, usamos o HTML, CSS, JavaScript.
+
+
+## 6. Desenvolvedoras
+
+- [Ellen Cavalcante](https://www.linkedin.com/in/ellencavalcantebrito/)
+- [Vanessa Bueck](https://www.linkedin.com/in/vanessa-bueck/)
